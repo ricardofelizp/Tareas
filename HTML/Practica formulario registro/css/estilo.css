@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contenedorprincipal{
+display: flex;
+width: 100%;
+height: 100vh;
+
+}
+
+.formulario{
+ display: absolute;
+ background-color: #A6E1FA;
+ align-self: center;
+ border-radius: 3px;
+ width: 400px;
+ height: 60%;
+ margin-left: 500px;
+}
+
+form > *{  
+   margin: 20px;
+  padding: 5px;
+}
+
+
+h2{
+    text-align: center;
+}
+
+.memo{
+    display: block;
+    margin-left: 4em;
+    padding-bottom: 2px;
+    height: 40px;
+}
+
+.caja-textoarea{
+    display: block;
+   margin-left: 5em;
+   width: 60%;
+   height: 6em;
+ 
+}
+
+button{
+    display: block;
+    margin-left: 50%;
+    width: 9em;
+}
